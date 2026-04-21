@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: linear-gradient(180deg, #1a1a1a 0%, #2b1a12 100%);
+    color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 20px rgba(255, 100, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #ffb347;
+    text-shadow: none;
+}
+
+
+nav {
+    margin-top: 16px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #ff6a00;
+    padding: 8px 16px;
+    margin: 0 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    transform: translateY(-2px);
+    background-color: #ff8c00;
+    box-shadow: 0 4px 12px rgba(255, 100, 0, 0.4);
+}
+
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+
+.banner {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner h2 {
+    font-size: 34px;
+    color: #ffd580;
+    text-shadow: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background: #2a2a2a;
+    width: 320px;
+    padding: 24px;
+    border-radius: 12px;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow:
+            0 0 10px rgba(255, 100, 0, 0.6),
+            0 0 20px rgba(255, 69, 0, 0.4);
+}
+
+.card h3 {
+    color: #ff914d;
+    font-size: 24px;
+}
+
+.card p,.card li {
+    color: #e6e6e6;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #111;
+}
